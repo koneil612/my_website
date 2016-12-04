@@ -1,0 +1,8 @@
+span {
+    display: inline-block;
+    background-color: grey;
+}
+
+span:hover {
+    background-color: white;
+}

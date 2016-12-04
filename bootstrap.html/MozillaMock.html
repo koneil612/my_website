@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mozilla Mock up Site</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="MozillaMock.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<!-- nav bar -->
+    <nav>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="mozilla-logo.png" class="navLogo"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">INTERNET HEALTH</a></li>
+                <li><a href="#">| WEB INNOVATIONS |</a></li>
+                <li><a href="#">DONATE</a></li>
+                <li><a href="#" class="button green">DOWNLOAD FIREFOX</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- Indicators-->
+    <div class="jumbotron">
+        <div class="container-fluid" id="home-slideshow">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="group.jpg" alt="group">
+                    <div class="carousel-caption">
+          <h3>Internet for people, not profit</h3>
+          <p>Hi. We're Mozilla, the proudly non-profit champions of the Internet, helping to keep it health, open and accessibsle to all.</p>
+                    </div>
+                </div>
+                  <div class="item">
+                    <img src="background1.png" alt="bg1" width="460" height="345">
+                    <div class="carousel-caption">
+          <h3>Internet for people, not profit</h3>
+          <p>Hi. We're Mozilla, the proudly non-profit champions of the Internet, helping to keep it health, open and accessibsle to all.</p>
+                    </div>
+                </div>
+                  <div class="item">
+                    <img src="lady.jpg" alt="lady" width="460" height="345">
+                    <div class="carousel-caption">
+          <h3>Internet for people, not profit</h3>
+          <p>Hi. We're Mozilla, the proudly non-profit champions of the Internet, helping to keep it health, open and accessibsle to all.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- impact and innovations -->
+    <div class="container-fluid">
+        <div class="row body">
+            <div class="col-md-6" id="body-left">
+                <img class="avatar" src="vr-high-res.png" alt="">
+                <p>
+                Our Impact
+                </p>
+                Working at the grassroots and policy levels, we teach web literacy, provide tools and advocate on behalf of every individual who values an internet built on fairness, inclusion and respect.
+                <ul style="list-style-type:none">
+                <li><img src="encryption.png" alt=""> Stand Up For Encryption</li>
+                <li> <img src="teach_the_web.png" alt=""> Teach The Web</li>
+                <li> <img src="toolkit.png" alt=""> Try the Lean Data Toolkit</li>
+                </ul>
+            </div>
+            <div class="col-md-6" id="body-right">
+                <img class="avatar" src="vr-high-res.png" alt="">
+                <p>Our innovations</p>
+                    Using the web as the platform, we build open, innovative technologies that allow developers to work free of closed, corporate ecosystems and create faster, safer web experiences for us all.
+                        <ul style="list-style-type:none">
+                            <li><img src="gaming.png" alt=""> Gaming on the web</li>
+                            <li> <img src="vr.png" alt="">Virtual    Reality Platform</li>
+                            <li> <img src="servo.png" alt="">Servo</li>
+                            <li><img src="rust.png" alt=""> Rust</li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+<!-- browse -->
+    <div class="browse container-fluid">
+        <div class="background">
+            <img src="background2.png" alt="backgrounddamnit" width="100%" margin="0px" padding="none"></div>
+            <div class="overlay">
+                <img src="firefox-logo-high-res.png" id="fox">
+                <p>Browse freely. Discover unlimited potential, endless possibility and a wide open Web. </p>
+                <p><a href="#">Get Firefox today</a></p>
+            </div>
+        </div>
+<!-- add ons careers and help -->
+    <div class="container-fluid">
+        <div class="row extra">
+            <div class="col-md-4">
+            <img src="add-ons.png" class="stuff">
+            <p>Add-ons Compare prices, check the weather, listen to music, send a tweet and more right from Firefox.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="careers.png" class="stuff">
+                <p>Careers Learn about the benefits of working at Mozilla and view open positions around the world.</p>
+            </div>
+            <div class="col-md-4">
+                    <img src="help.png" class="stuff">
+                    <p>Need help? Get answers to your questions about Firefox and all Mozilla products from our support team.</p>
+            </div>
+        </div>
+    </div>
+<!-- email  -->
+    <div class="container-fluid">
+         <div class="row email">
+             <div class="col-md-3 col-md-offset-2">
+                <img src="newsletter.png" class="newsletter">Love the web? Get the Mozilla newsletter and help us keep it open and free.
+            </div>
+
+            <div class="col-md-3 col-md-offset-2">
+                <form class="form-horizontal" action="index.html" method="post">
+                    <div class="form-inline">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+    <div class="container-fluid">
+        <div class="row footer">
+            <div class="col-md-4"><img src="mozilla-logo-footer.png" alt="">
+            </div>
+            <div class="col-md-4"><img src="mozilla-logo-footer.png" alt="">
+            </div>
+            <div class="col-md-4"><img src="mozilla-logo-footer.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<!-- NEED TO ADD SCALING FOR MOBILE AND THEN CHANGING. LOOKS SMALLER HAMBURGER MENU ON THE MOBILE -->

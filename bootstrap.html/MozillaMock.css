@@ -1,0 +1,120 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+}
+
+.navLogo {
+    height: 30px;
+}
+
+.navbar {
+    background-color: #d93a33;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+            text-decoration: none;
+            color: black;
+}
+
+.button.green {
+ background-color: #4caf50;
+ border-color: #47a44b;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+ }
+
+.body {
+    text-align: center;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px
+}
+
+#body-left {
+    color: #d93a33;
+    font-size: 18px;
+}
+
+#body-left ul{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30%
+}
+#body-right {
+    background-color: #d93a33;
+    color: white;
+    font-size: 18px;
+}
+
+#body-right ul{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30%;
+}
+#fox {
+    height: 142px;
+width: 136px;
+}
+
+.extra {
+    text-align: center;
+    color: gray;
+}
+.background {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.browse {
+    position: static;
+
+}
+.overlay a{
+    text-decoration: none;
+    color: white;
+}
+
+.overlay {
+    /*top: 0px;
+    left: 0px;*/
+/*position:absolute;*/
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  color:white;
+    text-align: center;
+}
+.stuff {
+    height: 100px;
+    width: 100px;
+}
+.email {
+background-color: #d93a33;
+/*text-align: right;*/
+color: white;
+}
+
+.form {
+    text-align: left;
+}
+
+.newsletter {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.footer {
+    background-color: #666
+}
